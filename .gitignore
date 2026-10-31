@@ -1,0 +1,7 @@
+# Ignore the Parquet source datasets and generated samples.
+*.parquet
+/output/
+
+# Ignore local Python environment and cache files.
+/.venv/
+__pycache__/
