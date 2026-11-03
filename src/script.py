@@ -6,6 +6,8 @@ import pyarrow as pa
 import pyarrow.parquet as pq
 
 
+# Identifica a versão atual do projeto.
+VERSION = "1.0.1"
 # Define a pasta onde este script e os arquivos Parquet de origem estão localizados.
 PASTA = Path(__file__).resolve().parent
 # Limita cada amostra aos primeiros 500 registros do arquivo de origem.
